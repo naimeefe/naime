@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+  </head>
+  <body>
+    <center>
+      <a href = "index.htm"> HOMEPAGE </a>
+      <a href = "films.htm"> FILMS </a>
+      <a href = "books.htm"> BOOKS </a>
+      <a href = "musics.htm"> MUSICS </a>
+      <a href = "usefullinks.htm"> USEFUL LINKS </a>
+      <a href = "contactme.htm"> CONTACT ME </a>
+      <font size = "+6"><ins><a href = "registration.htm"> REGISTRATION </a></font>
+
+<br><br>
+
+              <label for="theName"> Name: </label>
+              <input type="text" name="name" id="theName"> <br><br>
+
+	      <label for="theSurname"> Surname: </label>
+              <input type="text" name="surname" id="theSurname"> <br><br>
+
+              <label for="thePassword"> Password: </label>
+              <input type="password" name="userpassword"> <br><br>
+
+              <label for="theEmail"> E-mail: </label>
+              <input type="email" name="email" id="theEmail"> <br><br>
+
+              <label for="theDate">Date of Birth:</label>
+              <input type="date" id="theDate" name="date"><br><br>
+
+              <label for="theDepartment"> Department: </label>
+              <select name="department">
+  	        <option value="em">---</option>
+                <option value="ie">Industrial Engineering</option>
+                <option value="ce">Computer Engineering</option>
+                <option value="me">Mechanical Engineering</option>
+		<option value="eee">Electrical and Electronical Engineering</option>
+              </select>
+              <br><br>
+
+
+              <label for="theGerner"> Gender </label>
+              <select name="gender">
+                <option value="em">---</option>
+		<option value="m">Male</option>
+                <option value="f">Female</option>
+              </select>
+              <br><br>
+
+              <label for="theMessage"> Massage: </label>
+              <textarea type="textarea" rows="2" cols="40" name="name" id="theName"></textarea> <br><br>
+
+              <form method="post" enctype="multipart/form­data" action="test.php"><br>
+
+                <label for="theUpload"> Upload your photo: </label>
+                <input type="file" name="fileToUpload">
+              </form><br><br>
+
+              <label for="theInterests"> Mark your interests </label> <br><br>
+              <input type="checkbox" name="cb1" id="theCheckboxes">Autos and Vehicles <br><br>
+              <input type="checkbox" name="cb2" id="theCheckboxes">Comedy <br><br>
+              <input type="checkbox" name="cb3" id="theCheckboxes">Education <br><br>
+              <input type="checkbox" name="cb4" id="theCheckboxes">Film and Animation <br><br>
+              <input type="checkbox" name="cb5" id="theCheckboxes">Gaming <br><br>
+              <input type="checkbox" name="cb6" id="theCheckboxes">Musics <br><br>
+              <input type="checkbox" name="cb7" id="theCheckboxes">Politics <br><br>
+              <input type="checkbox" name="cb8" id="theCheckboxes">Pets and Animals <br><br>
+              <input type="checkbox" name="cb9" id="theCheckboxes">Science and Technology <br><br>
+              <input type="checkbox" name="cb10" id="theCheckboxes">Sports <br><br>
+
+              <button onclick="alert('Thanks for registration!')"> Submit </button><br>
+
+
+    </center>
+    </body>
+    </html>
